@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<!--<![endif]-->
+
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="UTF-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title>Gettree - Garden & Landscaping</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+
+current-menu-ancestor
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+
+    <meta name="author" content="themesflat.com">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Boostrap style -->
+    <link rel="stylesheet" type="text/css" href="stylesheet/bootstrap.css">
+
+    <!-- Theme style -->
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+
+    <!-- Reponsive -->
+    <link rel="stylesheet" type="text/css" href="stylesheet/responsive.css">
+
+    <!-- icoomon font -->
+    <link rel="stylesheet" type="text/css" href="stylesheet/icomoon.css">
+
+    <!-- Favicon and touch icons  -->
+    <link href="icon/Favicon.png" rel="apple-touch-icon-precomposed">
+    <link href="icon/Favicon.png" rel="apple-touch-icon-precomposed">
+    <link href="icon/Favicon.png" rel="shortcut icon">
+
+    <!-- anime -->
+    <link rel="stylesheet" href="stylesheet/animate.css">
+
+</head>
+
+<body>
+    <div class="boxed blog">
+        <!-- Preloader -->
+        <div class="preloader">
+            <div class="clear-loading loading-effect-2">
+                <span></span>
+            </div>
+        </div>
+
+        <!-- top header -->
+        <div class="top-header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col md-4">
+                        <div class="top-bar-left">
+                            <p class="top-location">2072 Pinnickinick Street, WA 98370</p>
+                        </div>
+                    </div>
+                    <div class="col md-8">
+                        <div class="top-bar-right link-style3">
+                            <a href="#" class="top-mail">info@website.com</a>
+                            <ul class="widgets-nav-social">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.top -->
+
+        <!-- header -->
+        <header id="header" class="header header-style2 bg-color">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="header-wrap">
+                        <div class="col-md-3">
+                            <div class="inner-header">
+                                <div class="logo-header">
+                                    <a href="index.html" title="">
+                                        <img src="icon/logo-dark.png" alt="images" />
+                                    </a>
+                                </div>
+                                <!-- /#logo -->
+                                <div class="btn-menu">
+                                    <span></span>
+                                </div>
+                                <!-- //mobile menu button -->
+                            </div>
+
+                        </div>
+                        <!-- /.col-md-3 -->
+                        <div class="col-md-6">
+                            <div class="nav-wrap">
+                                <nav id="mainnav" class="mainnav">
+                                    <ul class="menu">
+                                        <li class="current-menu-item">
+                                            <a href="index.html" title="">Home</a>
+                                            <!-- <ul class="sub-menu">
+                                                <li><a href="index.html" title="">Home 01</a></li>
+                                                <li class="current-item"><a href="home-2.html" title="">Home 02</a></li>
+                                            </ul> -->
+                                            <!-- /.sub-menu -->
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="about.html" title="">About</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="about.html" title="">About Us</a></li>
+                                                <li><a href="team.html" title="">Team</a></li>
+                                                <li><a href="faq.html" title="">Faq</a></li>
+                                            </ul>
+                                            <!-- /.sub-menu -->
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="services.html" title="">Services</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="services.html" title="">Services</a></li>
+                                                <li><a href="service-details.html" title="">Service Details</a></li>
+                                            </ul>
+                                            <!-- /.sub-menu -->
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="case-study.html" title="">Case</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="case-study.html" title="">Case Study</a></li>
+                                                <li><a href="case-details.html" title="">Case Details</a></li>
+                                            </ul>
+                                            <!-- /.sub-menu -->
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="blog.html" title="">Blog</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="blog.html" title="">Blog Standard</a></li>
+                                                <li><a href="blog-detail.html" title="">Blog Detail</a></li>
+                                            </ul>
+                                            <!-- /.sub-menu -->
+                                        </li>
+                                        <li>
+                                            <a href="contact.html" title="">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="site-header-right">
+                                <div class="header-inner">
+                                    <div class="search flat-show-search">
+                                        <div class="show-search">
+                                            <a href="#"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <div class="top-search widgets-input">
+                                            <form action="get" id="searchform-all" class="header-search search-form">
+                                                <div class="input-group">
+                                                    <input type="search" id="s" class="search-field"
+                                                        placeholder="Search here" aria-label="Search" />
+                                                    <button class="search-submit" type="submit" title="Search"></button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="cart">
+                                        <a href="#" class="cart-btn"><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                    <div class="button">
+                                        <a href="contact.html" class="btn">Get A Quote</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- header right -->
+                        </div>
+                    </div>
+                    <!-- /.header-wrap -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </header>
+        <!-- /header -->
+
+        <!-- page title -->
+        <div class="page-title-home2">
+            <!-- slider -->
+            <div class="container">
+                <div class="row">
+                    <div class="overlay-image"></div>
+                    <div class="slider-home2">
+                        <div class="flat-slider clearfix">
+                            <div class="rev_slider_wrapper fullwidthbanner-container">
+                                <div id="rev-slider1" class="rev_slider fullwidthabanner">
+                                    <ul>
+                                        <!-- Slide 1 -->
+                                        <li data-transition="random">
+                                            <!-- Main Image -->
+                                            <!-- Layers -->
+                                            <div class="tp-caption tp-resizeme text-one"
+                                                data-x="['left','left','left','center']"
+                                                data-hoffset="['9','0','0','0']"
+                                                data-y="['middle','middle','middle','middle']"
+                                                data-voffset="['-152','-50','-50','-50']"
+                                                data-fontsize="['16','0','0','0']" data-lineheight="['20','0','0','0']"
+                                                data-width="full" data-height="none" data-whitespace="normal"
+                                                data-transform_idle="o:1;"
+                                                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                                data-mask_in="x:0px;y:[100%];" data-mask_out="x:inherit;y:inherit;"
+                                                data-start="700" data-splitin="none" data-splitout="none"
+                                                data-responsive_offset="on">
+                                                <h3 class="sub-title">MARKETS & RESOURCES</h3>
+                                            </div>
+
+                                            <div class="tp-caption tp-resizeme text-two"
+                                                data-x="['left','left','left','center']"
+                                                data-hoffset="['6','-2','10','0']"
+                                                data-y="['middle','middle','middle','middle']"
+                                                data-voffset="['-40','-100',-10','0']"
+                                                data-fontsize="['63','63','63','63']"
+                                                data-lineheight="['80','80','64','52']" data-width="full"
+                                                data-height="none" data-whitespace="normal" data-transform_idle="o:1;"
+                                                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                                data-mask_in="x:0px;y:[100%];" data-mask_out="x:inherit;y:inherit;"
+                                                data-start="700" data-splitin="none" data-splitout="none"
+                                                data-responsive_offset="on">
+                                                <div class="title-box">
+                                                    <h1 class="title-slider2">Grow your health <br> grow a garden</h1>
+                                                </div>
+                                            </div>
+
+                                            <div class="tp-caption btn-text btn-linear hv-linear-gradient"
+                                                data-x="['left','left','left','center']"
+                                                data-hoffset="['10','-3','10','0']"
+                                                data-y="['middle','middle','middle','middle']"
+                                                data-voffset="['116','40','180','350']" data-width="full"
+                                                data-height="none" data-whitespace="normal" data-transform_idle="o:1;"
+                                                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                                data-mask_in="x:0px;y:[100%];" data-mask_out="x:inherit;y:inherit;"
+                                                data-start="700" data-splitin="none" data-splitout="none"
+                                                data-responsive_offset="on">
+                                                <div class="button-box">
+                                                    <div class="button res-btn-slider">
+                                                        <a href="contact.html" class="btn btn-left">Get A Quote</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tp-caption tp-resizeme image-slider text-right "
+                                                data-x="['right','right','right','right']"
+                                                data-hoffset="['-25','-160','-400','-29']"
+                                                data-y="['center','center','center','center']"
+                                                data-voffset="['-10','-50','60','-88']" data-width="full"
+                                                data-height="none" data-whitespace="normal" data-transform_idle="o:1;"
+                                                data-transform_in="y:0;z:[100%];rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                                data-mask_in="x:[100%];y:0px;" data-mask_out="x:inherit;y:inherit;"
+                                                data-start="900" data-splitin="none" data-splitout="none"
+                                                data-responsive_offset="on">
+                                                <img class="img-slide wow jackInTheBox" data-wow-delay="2500ms"
+                                                    data-wow-duration="3s" src="images/home/slidehome2.png"
+                                                    alt="images">
+                                            </div>
+                                        </li>
+                                        <!-- /End Slide 1 -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- flat-slider -->
+                    </div>
+                </div>
+
+            </div>
+            <!-- .slider -->
+
+            <section class="features-home2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="features-home2-box  wow fadeInUp">
+                                <div class="features-left link-style2">
+                                    <h2 class="title-main">A step towards less pollution</h2>
+                                    <a href="#" class="title-main heading2">(643)911-1633</a>
+                                </div>
+                                <div class="features-right">
+                                    <p class="section-desc">The quick, brown fox jumps over a lazy dog. DJs flock by
+                                        when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick
+                                        quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!-- /.page-title -->
+
+        <!-- Our services -->
+        <section class="flat-why-choose-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="themesflat-spacer clearfix" data-desktop="232" data-mobile="200" data-smobile="300">
+                        </div>
+                        <div class="section-title-box">
+                            <h5 class="section-subtitle">WHY CHOOSE US</h5>
+                            <h2 class="section-title">Experts Trusted Us</h2>
+                        </div>
+                        <div class="themesflat-spacer clearfix" data-desktop="63" data-mobile="60" data-smobile="40">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="item-three-column mg-bottom-20 wow fadeInLeft">
+                        <article class="flat-WCU-box grow-up-hover">
+                            <div class="WCU-image">
+                                <img class="grow-up-hover" src="images/why-choose-us/artical-post-1.jpg" alt="images">
+                            </div>
+                            <div class="features-box">
+                                <span class="tf-icon icon-fruit-box"></span>
+                                <div class="content-features">
+                                    <a href="service-details.html">
+                                        <h3 class="section-heading-rubik-size20">Landscaping</h3>
+                                    </a>
+                                    <h6 class="section-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Duis at est id leo</h6>
+                                </div>
+                            </div>
+                            <div class="button-read-more link-style2">
+                                <a href="service-details.html" class="read-more btn-read-more">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="item-three-column mg-bottom-20 wow fadeInUp">
+                        <article class="flat-WCU-box grow-up-hover">
+                            <div class="WCU-image">
+                                <img class="grow-up-hover" src="images/why-choose-us/artical-post-2.jpg" alt="images">
+                            </div>
+                            <div class="features-box">
+                                <span class="tf-icon icon2 icon-hanging-bot"></span>
+                                <div class="content-features">
+                                    <a href="service-details.html">
+                                        <h3 class="section-heading-rubik-size20">Pruning plants</h3>
+                                    </a>
+                                    <h6 class="section-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Duis at est id leo</h6>
+                                </div>
+                            </div>
+                            <div class="button-read-more link-style2">
+                                <a href="service-details.html" class="read-more btn-read-more">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="item-three-column mg-bottom-20 wow fadeInRight">
+                        <article class="flat-WCU-box grow-up-hover">
+                            <div class="WCU-image">
+                                <img class="grow-up-hover" src="images/why-choose-us/artical-post-3.jpg" alt="images">
+                            </div>
+                            <div class="features-box">
+                                <span class="tf-icon icon3 icon-spray"></span>
+                                <div class="content-features">
+                                    <a href="service-details.html">
+                                        <h3 class="section-heading-rubik-size20">Lawn Maintenance</h3>
+                                    </a>
+                                    <h6 class="section-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Duis at est id leo</h6>
+                                </div>
+                            </div>
+                            <div class="button-read-more link-style2">
+                                <a href="service-details.html" class="read-more btn-read-more">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="themesflat-spacer clearfix" data-desktop="128" data-mobile="60" data-smobile="60">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- / Our service -->
+
+        <!-- about home2 -->
+        <section class="flat-about-home2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="image-about-home2">
+                        <img src="images/home/close-up-planting-flowers-pot.jpg" alt="images">
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="themesflat-spacer clearfix" data-desktop="148" data-mobile="60"
+                                    data-smobile="60"></div>
+                                <div class="about-content-left themesflat-counter">
+                                    <h5 class="section-subtitle">ABOUT US</h5>
+                                    <h2 class="section-title">Nurture The environment</h2>
+                                    <p class="section-desc">Lorem Ipsum is simply dummy text of free available market
+                                        typesetting industry has been the industry's standard dummy</p>
+                                    <div class="about-history-box wow fadeInLeft ">
+                                        <div class="icon-about">
+                                            <span class="tf-icon-about icon-admin-sys"></span>
+                                            <div class="about-count-year section-heading-jost-size20 fw-600">25 YEARS
+                                            </div>
+                                        </div>
+                                        <p class="section-desc about-box-right">Lorem Ipsum is simply dummy text of free
+                                            available market type setting industry</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="themesflat-spacer clearfix" data-desktop="121" data-mobile="100"
+                                    data-smobile="80"></div>
+                                <div class="about-content-right wow fadeInRight">
+                                    <div class="about-right-list link-style3">
+                                        <div class="features-box">
+                                            <span class="icon-about-right"></span>
+                                            <div class="content-features">
+                                                    <h3 class="section-heading-jost-size20 fw-600">Ligula molestie</h3>
+                                                <p class="section-desc white">Dolor sit amet onsectetur adipisicing
+                                                    elit, sed do eiusmod tempor incididunt</p>
+                                            </div>
+                                        </div>
+                                        <div class="features-box box-2">
+                                            <span class="icon-about-right"></span>
+                                            <div class="content-features">
+                                                    <h3 class="section-heading-jost-size20 fw-600">Magna vivamus</h3>
+                                                <p class="section-desc white">Lorem ipsum dolor sit amet, consectetur
+                                                    adipisicing elit, sed do eiusmod</p>
+                                            </div>
+                                        </div>
+                                        <div class="features-box box-2">
+                                            <span class="icon-about-right"></span>
+                                            <div class="content-features">
+                                                    <h3 class="section-heading-jost-size20 fw-600">Efficitur velit </h3>
+                                                <p class="section-desc white">Consectetur adipisicing elised do eiusmod
+                                                    tempor incididunt ut labore</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="60"
+                                    data-smobile="60"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /about home2 -->
+
+        <!-- service home2 -->
+        <section class="flat-service-home2">
+            <div class="service-home2-overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="themesflat-spacer clearfix" data-desktop="142" data-mobile="60" data-smobile="60">
+                        </div>
+                        <div class="section-title-box center">
+                            <h5 class="section-subtitle white">WHAT WE DO</h5>
+                            <h2 class="section-title white">Services for You</h2>
+                        </div>
+                        <div class="themesflat-spacer clearfix" data-desktop="62" data-mobile="60" data-smobile="40">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="item-four-column wow fadeInDown">
+                        <article class="service-box hover-up">
+                            <a href="service-details.html" class="section-heading-rubik-size20">Landscaping</a>
+                            <h6 class="section-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+                                est id leo</h6>
+                            <hr class="service-line">
+                            <span class="tf-icon-service icon-icon-farming-layer"><span class="path1"></span><span
+                                    class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                    class="path5"></span></span>
+                        </article>
+                        <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="30" data-smobile="30">
+                        </div>
+                    </div>
+                    <div class="item-four-column wow fadeInDown">
+                        <article class="service-box service-box2 hover-up">
+                            <a href="service-details.html" class="section-heading-rubik-size20">Pruning plants</a>
+                            <h6 class="section-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+                                est id leo</h6>
+                            <hr class="service-line line2">
+                            <span class="tf-icon-service icon-box2 icon-Group-7527"><span class="path1"></span><span
+                                    class="path2"></span><span class="path3"></span></span>
+                        </article>
+                        <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="30" data-smobile="30">
+                        </div>
+                    </div>
+                    <div class="item-four-column wow fadeInDown">
+                        <article class="service-box service-box3 hover-up">
+                            <a href="service-details.html" class="section-heading-rubik-size20">Lawn Maintenance</a>
+                            <h6 class="section-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+                                est id leo</h6>
+                            <hr class="service-line line3">
+                            <span class="tf-icon-service icon-box3 icon-Group-7526"><span class="path1"></span><span
+                                    class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                    class="path5"></span><span class="path6"></span></span>
+                        </article>
+                        <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="60" data-smobile="30">
+                        </div>
+                    </div>
+                    <div class="item-four-column wow fadeInDown">
+                        <article class="service-box service-box4 hover-up">
+                            <a href="service-details.html" class="section-heading-rubik-size20">Irrigation & Drainage</a>
+                            <h6 class="section-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+                                est id leo</h6>
+                            <hr class="service-line line4">
+                            <span class="tf-icon-service icon-box4 icon-Group-7528"><span class="path1"></span><span
+                                    class="path2"></span><span class="path3"></span></span>
+                        </article>
+                        <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="60" data-smobile="60">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- service home2 -->
+
+        <!-- shop home2 -->
+        <section class="flat-shop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title-box center">
+                            <h5 class="section-subtitle">OUR GARDEN STORE</h5>
+                            <h2 class="section-title">Features Product</h2>
+                        </div>
+                        <div class="themesflat-spacer clearfix" data-desktop="65" data-mobile="60" data-smobile="40">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <ul class="tf-shop-item wow fadeInDown">
+                            <li>
+                                <div class="shop-item-box">
+                                    <div class="image-item">
+                                        <img src="images/shop/item1.png" alt="images">
+                                        <div class="list-icon-hidden">
+                                            <ul class="widgets-icon-item active1">
+                                                <li>
+                                                    <a href="#" class="item-add-to-cart active2"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="item-add-to-wishlist"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="item-compare"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="content-item">
+                                        <a href="#" class="section-heading-jost-size20">Chinese evergreen</a>
+                                        <div class="price-item">$500</div>
+                                    </div>
+                                </div>
+                                <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="25"
+                                    data-smobile="15"></div>
+                            </li>
+                            <li>
+                                <div class="shop-item-box">
+                                    <div class="image-item">
+                                        <img src="images/shop/item2.png" alt="images">
+                                        <div class="list-icon-hidden">
+                                            <ul class="widgets-icon-item">
+                                                <li>
+                                                    <a href="#" class="item-add-to-cart"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="item-add-to-wishlist"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="item-compare"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="content-item">
+                                        <a href="#" class="section-heading-jost-size20">Aloe vera</a>
+                                        <div class="price-item">$500</div>
+                                    </div>
+                                </div>
+                                <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="25"
+                                    data-smobile="15"></div>
+                            </li>
+                            <li>
+                                <div class="shop-item-box">
+                                    <div class="image-item">
+                                        <img src="images/shop/item3.png" alt="images">
+                                        <div class="list-icon-hidden">
+                                            <ul class="widgets-icon-item">
+                                                <li>
+                                                    <a href="#" class="item-add-to-cart"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="item-add-to-wishlist"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="item-compare"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="content-item">
+                                        <a href="#" class="section-heading-jost-size20">Pike tail, or snake plant</a>
+                                        <div class="price-item">$500</div>
+                                    </div>
+                                </div>
+                                <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="25"
+                                    data-smobile="15"></div>
+                            </li>
+                            <li>
+                                <div class="shop-item-box">
+                                    <div class="image-item">
+                                        <img src="images/shop/item4.png" alt="images">
+                                        <div class="list-icon-hidden">
+                                            <ul class="widgets-icon-item">
+                                                <li>
+                                                    <a href="#" class="item-add-to-cart"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="item-add-to-wishlist"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="item-compare"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="content-item">
+                                        <a href="#" class="section-heading-jost-size20">Ficus, or rubber tree</a>
+                                        <div class="price-item">$500</div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="themesflat-spacer clearfix" data-desktop="118" data-mobile="0" data-smobile="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /shop home2 -->
+
+        <!-- counter-->
+        <section class="flat-counter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="themesflat-spacer clearfix" data-desktop="120" data-mobile="60" data-smobile="60">
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="counter-content-left wow fadeInLeft">
+                            <img class="background-counter" src="images/Counter/the-man-working-tree.jpg" alt="images">
+                            <div class="content-left-box">
+                                <h2 class="title-main">We are nice people with a lot of experience.</h2>
+                                <p class="section-desc">Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex
+                                    nymphs. Waltz, bad nymph</p>
+                            </div>
+                        </div>
+                        <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="30" data-smobile="30">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="counter-content-right themesflat-counter wow fadeInRight">
+                            <div class="content-right-box mg-bottom30">
+                                <span class="title-main white number" data-speed="1000" data-to="10"
+                                    data-inviewport="yes">10</span><span class="title-main white">+</span>
+                                <h3 class="section-heading-jost-size20 fw-600">Years of experience</h3>
+                            </div>
+                            <div class="content-right-box box-2 mg-bottom30">
+                                <span class="title-main white number" data-speed="1500" data-to="95"
+                                    data-inviewport="yes">95</span><span class="title-main white">K</span>
+                                <h3 class="section-heading-jost-size20 fw-600">Happy Customers</h3>
+                            </div>
+                            <div class="content-right-box box-3">
+                                <span class="title-main white number" data-speed="2000" data-to="100"
+                                    data-inviewport="yes">100</span><span class="title-main white">%</span>
+                                <h3 class="section-heading-jost-size20 mg-top-5 fw-600">Satisfaction</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="themesflat-spacer clearfix" data-desktop="120" data-mobile="60" data-smobile="60">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /conter -->
+
+        <!-- profolio home2 -->
+        <section class="flat-profolio-home2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="themesflat-spacer clearfix" data-desktop="120" data-mobile="60" data-smobile="60">
+                        </div>
+                    </div>
+                    <div class="item-three-column wow fadeInLeft">
+                        <div class="list-box-profolio mg-bottom30 wow fadeInUp">
+                            <div class="image-profolio">
+                                <img src="images/profolio/profolio-image-1.jpg" alt="images">
+                                <div class="profolio-show">
+                                    <div class="profolio-info">
+                                        <div class="info">
+                                            <a href="case-details.html">
+                                                <h3 class="section-heading-jost-size20">
+                                                    Finished Work</h3>
+                                            </a>
+                                            <p class="desc-box">Dummy text of free available</p>
+                                        </div>
+                                        <div class="button-next">
+                                            <a class="profolio-btn" href="case-details.html"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list-box-profolio mg-bottom30 wow fadeInUp">
+                            <div class="image-profolio">
+                                <img src="images/profolio/profolio-image-2.jpg" alt="images">
+                                <div class="profolio-show">
+                                    <div class="profolio-info">
+                                        <div class="info">
+                                            <a href="case-details.html">
+                                                <h3 class="section-heading-jost-size20">
+                                                    Finished Work</h3>
+                                            </a>
+                                            <p class="desc-box">Dummy text of free available</p>
+                                        </div>
+                                        <div class="button-next">
+                                            <a class="profolio-btn" href="case-details.html"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-three-column wow fadeInUp">
+                        <div class="list-box-profolio wow fadeInUp">
+                            <div class="image-profolio">
+                                <img src="images/profolio/profolio-image-3.jpg" alt="images">
+                                <div class="profolio-show active">
+                                    <div class="profolio-info">
+                                        <div class="info">
+                                            <a href="case-details.html">
+                                                <h3 class="section-heading-jost-size20">
+                                                    Finished Work</h3>
+                                            </a>
+                                            <p class="desc-box">Dummy text of free available</p>
+                                        </div>
+                                        <div class="button-next">
+                                            <a class="profolio-btn" href="case-details.html"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="30" data-smobile="30">
+                        </div>
+                    </div>
+                    <div class="item-three-column item-flex-100 wow fadeInRight">
+                        <div class="list-box-profolio mg-bottom30 wow fadeInUp">
+                            <div class="image-profolio">
+                                <img src="images/profolio/profolio-image-4.jpg" alt="images">
+                                <div class="profolio-show">
+                                    <div class="profolio-info">
+                                        <div class="info">
+                                            <a href="case-details.html">
+                                                <h3 class="section-heading-jost-size20">
+                                                    Finished Work</h3>
+                                            </a>
+                                            <p class="desc-box">Dummy text of free available</p>
+                                        </div>
+                                        <div class="button-next">
+                                            <a class="profolio-btn" href="case-details.html"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-box-profolio wow fadeInUp">
+                            <div class="image-profolio">
+                                <img src="images/profolio/profolio-image-5.jpg" alt="images">
+                                <div class="profolio-show">
+                                    <div class="profolio-info">
+                                        <div class="info">
+                                            <a href="case-details.html">
+                                                <h3 class="section-heading-jost-size20">
+                                                    Finished Work</h3>
+                                            </a>
+                                            <p class="desc-box">Dummy text of free available</p>
+                                        </div>
+                                        <div class="button-next">
+                                            <a class="profolio-btn" href="case-details.html"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="themesflat-spacer clearfix" data-desktop="90" data-mobile="60" data-smobile="60">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /profolio home2 -->
+
+        <!-- flat-testimonials-home2 -->
+        <section class="flat-testimonials-home2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="themesflat-spacer clearfix" data-desktop="30" data-mobile="0" data-smobile="0">
+                        </div>
+                        <div class="testimonials-content-left">
+                            <div class="section-title-box">
+                                <h5 class="section-subtitle">CLIENT TESTIMONIALS</h5>
+                                <h2 class="section-title">What our clients say</h2>
+                            </div>
+                            <p class="section-desc mg-top-25">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                        </div>
+                        <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="30" data-smobile="30">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="testimonials-content-right wow fadeInRight">
+                            <img src="images/testimonials/young-beautiful-florist-watering-flowers.jpg" alt="images">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="owl-carousel-2 owl-theme author-carousel wow fadeInUp">
+                                <div class="item">
+                                    <div class="testimonials-author-box bd-radius-8">
+                                        <div class="testimonials-author">
+                                            <div class="testimonials-author-img">
+                                                <img src="images/team/staff-box1.jpg" class="bd-radius-50" alt="images">
+                                            </div>
+                                            <div class="testimonials-author-text">
+                                                <h4 class="section-desc-heading">Eugene Freeman</h4>
+                                                <p class="section-desc"> Tincidunt </p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials-text section-desc mg-top-25">
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                                                eirmod tempor invi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimonials-author-box box-2 bd-radius-8">
+                                        <div class="testimonials-author">
+                                            <div class="testimonials-author-img">
+                                                <img src="images/team/staff-box2.jpg" class="bd-radius-50" alt="images">
+                                            </div>
+                                            <div class="testimonials-author-text">
+                                                <h4 class="section-desc-heading">Kelly Coleman</h4>
+                                                <p class="section-desc"> Nulla nec</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials-text section-desc mg-top-25">
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                                                eirmod tempor invi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimonials-author-box bd-radius-8">
+                                        <div class="testimonials-author">
+                                            <div class="testimonials-author-img">
+                                                <img src="images/team/staff-box1.jpg" class="bd-radius-50" alt="images">
+                                            </div>
+                                            <div class="testimonials-author-text">
+                                                <h4 class="section-desc-heading">Eugene Freeman</h4>
+                                                <p class="section-desc"> Tincidunt </p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials-text section-desc mg-top-25">
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                                                eirmod tempor invi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimonials-author-box box-2 bd-radius-8">
+                                        <div class="testimonials-author">
+                                            <div class="testimonials-author-img">
+                                                <img src="images/team/staff-box2.jpg" class="bd-radius-50" alt="images">
+                                            </div>
+                                            <div class="testimonials-author-text">
+                                                <h4 class="section-desc-heading">Kelly Coleman</h4>
+                                                <p class="section-desc"> Nulla nec</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials-text section-desc mg-top-25">
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                                                eirmod tempor invi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="themesflat-spacer clearfix" data-desktop="119" data-mobile="0" data-smobile="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- flat-testimonials-home2 -->
+
+        <!-- news home2 -->
+        <section class="flat-news-home2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-sm-6">
+                        <div class="section-title-box">
+                            <h5 class="section-subtitle">LATEST NEWS</h5>
+                            <h2 class="section-title">Our Insights & Articles</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="button-news mg-top-20">
+                            <a href="blog.html" class="button-style-2 btn-2 f-right">See all</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="themesflat-spacer clearfix" data-desktop="55" data-mobile="50" data-smobile="30">
+                        </div>
+                        <div class="owl-carousel owl-theme author-carousel wow fadeInUp">
+                            <div class="item">
+                                <article class="flat-news-box grow-up-hover">
+                                    <div class="news-image bd-radius-8">
+                                        <img src="images/news/young-workers-greenhouse-feed-flowers-concept-caring-plants.jpg"
+                                            class="grow-up-hover" alt="images">
+                                    </div>
+                                    <div class="news-content-box bd-radius-8">
+                                        <div class="news-date link-style2">
+                                            <a href="blog.html" class="section-heading-rubik-size14">28 JANUARY, 2020</a>
+                                        </div>
+                                        <ul class="mg-top-15 mg-bottom5 d-flex">
+                                            <li><a href="blog-detail.html" class="user section-heading-rubik-size12">BY ADMIN</a></li>
+                                            <li><a href="blog.html" class="folder section-heading-rubik-size12">Air
+                                                    Transport</a></li>
+                                        </ul>
+                                        <a href="blog-detail.html" class="section-heading-rubik-size20 fw-500">Mauris Neque Nisiibus
+                                            Non Elementum</a>
+                                        <div class="news-read-more link-style2 mg-top-15">
+                                            <a href="blog-detail.html" class="news-rm section-heading-rubik-size16">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="item">
+                                <article class="flat-news-box grow-up-hover">
+                                    <div class="news-image bd-radius-8">
+                                        <img src="images/blog/woman-plant-the-tree.jpg" class="grow-up-hover"
+                                            alt="images">
+                                    </div>
+                                    <div class="news-content-box bd-radius-8">
+                                        <div class="news-date link-style2">
+                                            <a href="blog.html" class="section-heading-rubik-size14">28 JANUARY, 2020</a>
+                                        </div>
+                                        <ul class="mg-top-15 mg-bottom5 d-flex">
+                                            <li><a href="blog-detail.html" class="user section-heading-rubik-size12">BY ADMIN</a></li>
+                                            <li><a href="blog.html" class="folder section-heading-rubik-size12">Air
+                                                    Transport</a></li>
+                                        </ul>
+                                        <a href="blog-detail.html" class="section-heading-rubik-size20 fw-500">Quisque Suscipit Ipsum
+                                            Est, Eu Venenatis Leo</a>
+                                        <div class="news-read-more link-style2 mg-top-15">
+                                            <a href="blog-detail.html" class="news-rm section-heading-rubik-size16">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="item">
+                                <article class="flat-news-box grow-up-hover">
+                                    <div class="news-image bd-radius-8">
+                                        <img src="images/news/medium-shot-woman-online-meeting.jpg"
+                                            class="grow-up-hover" alt="images">
+                                    </div>
+                                    <div class="news-content-box bd-radius-8">
+                                        <div class="news-date link-style2">
+                                            <a href="blog.html" class="section-heading-rubik-size14">28 JANUARY, 2020</a>
+                                        </div>
+                                        <ul class="mg-top-15 mg-bottom5 d-flex">
+                                            <li><a href="blog-detail.html" class="user section-heading-rubik-size12">BY ADMIN</a></li>
+                                            <li><a href="blog.html" class="folder section-heading-rubik-size12">Air
+                                                    Transport</a></li>
+                                        </ul>
+                                        <a href="blog-detail.html" class="section-heading-rubik-size20 fw-500">Maecenas Interdum Lorem
+                                            Eleifend Orci Aliquam</a>
+                                        <div class="news-read-more link-style2 mg-top-15">
+                                            <a href="blog-detail.html" class="news-rm section-heading-rubik-size16">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="themesflat-spacer clearfix" data-desktop="127" data-mobile="60" data-smobile="60">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- /news -->
+
+        <!-- footer -->
+        <footer class="footer footer-style-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="top-footer-style2 mg-top-30">
+                                    <div class="col-md-6 col-sm-6 wow fadeInLeft">
+                                        <div class="logo-footer-style2">
+                                            <img src="icon/logo-dark.png" alt="images">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 wow fadeInRight">
+                                        <div class="widgets-about f-right">
+                                            <ul class="widgets-nav-social">
+                                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                </li>
+                                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                                </li>
+                                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                                </li>
+                                                <li><a href="#"><i class="fa fa-linkedin-square"
+                                                            aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="0"
+                                    data-smobile="60"></div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="list-footer wow fadeInUp wow fadeInDown">
+                                    <div class="footer-item">
+                                        <div class="widgets-about padding-top-listfooter">
+                                            <h3
+                                                class="title-section-footer section-heading-jost-size20 fw-600 text-pri2-color">
+                                                Contact Us</h3>
+                                            <div class="list-contact-footer2">
+                                                <div class="location d-flex">
+                                                    <div class="icon-location mg-top-25"></div>
+                                                    <div class="content-location">
+                                                        <div class="heading-16px-rubik text-pri2-color">66 broklyant,
+                                                            new York India 3269 road.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="phone-call">
+                                                    <div class="icon-phone-call mg-top-30"></div>
+                                                    <div class="content-phone-call">
+                                                        <div class="heading-16px-rubik text-pri2-color">012 345 678 9101
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="email">
+                                                    <div class="icon-email mg-top-25"></div>
+                                                    <div class="content-email">
+                                                        <div class="heading-16px-rubik text-pri2-color mg-top-20">
+                                                            yourgmail@gmail.com</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer-item">
+                                        <div class="widgets-menu-1 padding-top-listfooter">
+                                            <h3
+                                                class="title-section-footer section-heading-jost-size20 fw-600 text-pri2-color">
+                                                Explore</h3>
+                                            <ul class="list-menu-1 text-decs">
+                                                <li><a href="services.html">Brangding Design</a> </li>
+                                                <li><a href="services.html">Ui/ux Designing</a> </li>
+                                                <li><a href="services.html">Maek Elements</a> </li>
+                                                <li><a href="services.html">Graphics Design</a> </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="footer-item padding-top-listfooter">
+                                        <div class="widgets-menu-2">
+                                            <h3
+                                                class="title-section-footer section-heading-jost-size20 fw-600 text-pri2-color">
+                                                Recent Post</h3>
+                                            <ul class="list-menu-2 text-decs">
+                                                <li>
+                                                    <h3 class="heading-menu2"><a href="blog-detail.html">Bigg Ideas Of Business
+                                                            branding Info.</a></h3>
+                                                    <span class="post-date"><span class="entry-date">December 7,
+                                                            2021</span></span>
+                                                </li>
+                                                <li>
+                                                    <h3 class="heading-menu2"><a href="blog-detail.html">Bigg Ideas Business branding
+                                                            Info.</a></h3>
+                                                    <span class="post-date"><span class="entry-date">December 7,
+                                                            2021</span></span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-form-home2 wow fadeInUp">
+                            <div class="contact-right">
+                                <h3 class="section-heading-jost-size29">Newslatter</h3>
+                                <p class="section-heading-rubik-size16 fw-300">sign up for newslatter & get lattest
+                                    news.</p>
+                                <form method="post" class="form-contact-right" id="contactform"
+                                    action="./contact/contact-process.php" accept-charset="utf-8"
+                                    novalidate="novalidate">
+                                    <div class="input-name">
+                                        <input id="name" class="input-contact" placeholder="Enter Your Name" name="name"
+                                            type="text" required>
+                                    </div>
+                                    <div class="input-phone">
+                                        <input id="email" class="input-contact" type="email"
+                                            placeholder="Enter Your Email" name="email" required>
+                                    </div>
+                                    <div class="button">
+                                        <button type="submit" class="btn btn-left">SUBSCRIBE</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="copyright">
+                                <div class="copyright-text">
+                                    copyright 2021 by themesflat
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- / footer -->
+
+        <!-- btn go top -->
+        <div class="button-go-top">
+            <a href="#" title="" class="go-top">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+        </div>
+        <!-- / btn go top -->
+
+    </div>
+    <!--/.boxed-->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="javascript/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="javascript/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascript/owl.carousel.js"></script>
+    <script type="text/javascript" src="javascript/jquery.easing.js"></script>
+    <script type="text/javascript" src="javascript/jquery-validate.js"></script>
+    <script type="text/javascript" src="javascript/jquery.cookie.js"></script>
+    <script type="text/javascript" src="javascript/waypoints.min.js"></script>
+    <script type="text/javascript" src="javascript/countto.js"></script>
+    <script type="text/javascript" src="javascript/wow.min.js"></script>
+    <script type="text/javascript" src="javascript/main.js"></script>
+    <!-- /javascript -->
+
+    <!-- slider -->
+    <script src="rev-slider/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="rev-slider/js/jquery.themepunch.tools.min.js"></script>
+    <script src="javascript/rev-slider.js"></script>
+
+    <!-- Load Extensions only on Local File Systems ! The following part can be removed on Server for On Demand Loading -->
+    <script src="rev-slider/js/extensions/extensionsrevolution.extension.actions.min.js"></script>
+    <script src="rev-slider/js/extensions/extensionsrevolution.extension.carousel.min.js"></script>
+    <script src="rev-slider/js/extensions/extensionsrevolution.extension.kenburn.min.js"></script>
+    <script src="rev-slider/js/extensions/extensionsrevolution.extension.layeranimation.min.js"></script>
+    <script src="rev-slider/js/extensions/extensionsrevolution.extension.migration.min.js"></script>
+    <script src="rev-slider/js/extensions/extensionsrevolution.extension.navigation.min.js"></script>
+    <script src="rev-slider/js/extensions/extensionsrevolution.extension.parallax.min.js"></script>
+    <script src="rev-slider/js/extensions/extensionsrevolution.extension.slideanims.min.js"></script>
+    <script src="rev-slider/js/extensions/extensionsrevolution.extension.video.min.js"></script>
+
+</body>
+
+</html>
