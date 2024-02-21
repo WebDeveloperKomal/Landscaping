@@ -64,7 +64,7 @@ current-menu-ancestor
                     </div>
                     <div class="col md-8">
                         <div class="top-bar-right link-style3">
-                            <a href="#" class="top-mail">info@website.com</a>
+                            <a href="#" class="top-mail">contact@gardener.in</a>
                             <ul class="widgets-nav-social">
                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
