@@ -12,9 +12,9 @@ function saveData() {
 
     // var jwtToken = localStorage.getItem('jwtToken');
 
-    console.log('Request Data:', JSON.stringify(saveData));
+    // console.log('Request Data:', JSON.stringify(saveData));
 
-    if (!saveData.address || !saveData.phone || !saveData.email) {
+    if (!saveData.name || !saveData.phone || !saveData.email) {
         alert('Please fill in all required fields.');
         return;
     }

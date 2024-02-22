@@ -1649,6 +1649,11 @@
                             </section>
                         </div>
                     </div>
+
+
+
+
+                    
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-50464372 elementor-invisible"
                         data-id="50464372" data-element_type="column"
                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
@@ -1730,7 +1735,8 @@
 					${html``} must be used as in immediate child of "metform-form-main-wrapper"
 					class otherwise multistep form will not run at all
 					---------------------------------------------------------->
-                                                                <form>
+                                                                <form method="post"
+                                                                enctype="multipart/form-data">
                                                                     <div className="metform-form-main-wrapper">
                                                                         <!-- key=${'hide-form-after-submit'} ref=${parent.formRef} -->
                                                                         <!-- ${html` -->
@@ -1756,7 +1762,7 @@
                                                                                                 data-settings="{&quot;tf_sticky&quot;:&quot;no&quot;}">
                                                                                                 <div
                                                                                                     className="elementor-container elementor-column-gap-default">
-                                                                                                    <div className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-67198ad0"
+                                                                                                    <div class="form-group" className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-67198ad0"
                                                                                                         data-id="67198ad0"
                                                                                                         data-element_type="column">
                                                                                                         <div
@@ -1767,10 +1773,10 @@
                                                                                                                 data-settings="{&quot;mf_input_name&quot;:&quot;mf-text&quot;}"
                                                                                                                 data-widget_type="mf-text.default">
                                                                                                                 <div
-                                                                                                                    className="elementor-widget-container">
+                                                                                                                    className="form-group elementor-widget-container">
 
                                                                                                                     <div
-                                                                                                                        className="mf-input-wrapper">
+                                                                                                                        className="form-group mf-input-wrapper">
                                                                                                                         <label
                                                                                                                             className="mf-input-label"
                                                                                                                             htmlFor="mf-input-text-10a2f2ca">
@@ -1782,9 +1788,9 @@
 
                                                                                                                         <input
                                                                                                                             type="text"
-                                                                                                                            className="mf-input "
-                                                                                                                            id="mf-input-text-10a2f2ca"
-                                                                                                                            name="mf-text"
+                                                                                                                            class="form-control"
+                                                                                                                            id="name"
+                                                                                                                            name="name"
                                                                                                                             placeholder="Full Name">
                                                                                                                         <span
                                                                                                                             className="mf-error-message"></span>
@@ -1806,7 +1812,7 @@
                                                                                                             </div>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <div className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3323f445"
+                                                                                                    <div class="form-group" className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3323f445"
                                                                                                         data-id="3323f445"
                                                                                                         data-element_type="column">
                                                                                                         <div
@@ -1836,9 +1842,9 @@
 
                                                                                                                         <input
                                                                                                                             type="tel"
-                                                                                                                            className="mf-input "
-                                                                                                                            id="mf-input-telephone-3fde4a58"
-                                                                                                                            name="mf-telephone"
+                                                                                                                            class="form-control"
+                                                                                                                            id="phone"
+                                                                                                                            name="phone"
                                                                                                                             placeholder="Phone Number">
                                                                                                                         <!-- onInput=${parent.handleChange}
                                                                                                                                           aria-invalid=${validation.errors['mf-telephone']
@@ -1873,7 +1879,7 @@
                                                                                                 data-id="a8e9b15"
                                                                                                 data-element_type="section"
                                                                                                 data-settings="{&quot;tf_sticky&quot;:&quot;no&quot;}">
-                                                                                                <div
+                                                                                                <div class="form-group"
                                                                                                     className="elementor-container elementor-column-gap-default">
                                                                                                     <div className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-71c3b0e0"
                                                                                                         data-id="71c3b0e0"
@@ -1890,7 +1896,7 @@
 
                                                                                                                     <div
                                                                                                                         className="mf-input-wrapper">
-                                                                                                                        <label
+                                                                                                                        <label 
                                                                                                                             className="mf-input-label"
                                                                                                                             htmlFor="mf-input-email-2c7e2468">
                                                                                                                             <!-- ${
@@ -1907,10 +1913,9 @@
 
                                                                                                                         <input
                                                                                                                             type="email"
-                                                                                                                            defaultValue=""
-                                                                                                                            className="mf-input "
-                                                                                                                            id="mf-input-email-2c7e2468"
-                                                                                                                            name="mf-email"
+                                                                                                                            className="form-control"
+                                                                                                                            id="email"
+                                                                                                                            name="email"
                                                                                                                             placeholder="Email address  ">
 
 
@@ -1946,7 +1951,7 @@
                                                                                                             </div>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <div className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-14b8b54a"
+                                                                                                    <div class="form-group" className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-14b8b54a"
                                                                                                         data-id="14b8b54a"
                                                                                                         data-element_type="column">
                                                                                                         <div
@@ -1975,11 +1980,11 @@
                                                                                                                                 *</span>
                                                                                                                         </label>
                                                                                                                         <input
-                                                                                                                            type="email"
+                                                                                                                            type="text"
                                                                                                                             defaultValue=""
-                                                                                                                            className="mf-input "
-                                                                                                                            id="mf-input-email-2c7e2468"
-                                                                                                                            name="mf-email"
+                                                                                                                            className="form-control"
+                                                                                                                            id="services"
+                                                                                                                            name="services"
                                                                                                                             placeholder="Services">
 
                                                                                                                         <!-- <${props.Select}
@@ -2064,7 +2069,7 @@
                                                                                                 data-id="5f2b498d"
                                                                                                 data-element_type="section"
                                                                                                 data-settings="{&quot;tf_sticky&quot;:&quot;no&quot;}">
-                                                                                                <div
+                                                                                                <div class="form-group"
                                                                                                     className="elementor-container elementor-column-gap-default">
                                                                                                     <div className="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-d7cb75b"
                                                                                                         data-id="d7cb75b"
@@ -2095,9 +2100,9 @@
                                                                                                                         </label>
 
                                                                                                                         <textarea
-                                                                                                                            className="mf-input mf-textarea "
-                                                                                                                            id="mf-input-text-area-4c122c5f"
-                                                                                                                            name="mf-textarea"
+                                                                                                                            className="form-control"
+                                                                                                                            id="message"
+                                                                                                                            name="message"
                                                                                                                             placeholder="Your Message"></textarea>
                                                                                                                         <!-- <${validation.ErrorMessage}
                                                                                                                             errors=${validation.errors}
@@ -2120,7 +2125,7 @@
                                                                                                 data-id="52b20bdf"
                                                                                                 data-element_type="section"
                                                                                                 data-settings="{&quot;tf_sticky&quot;:&quot;no&quot;}">
-                                                                                                <div
+                                                                                                <div class="form-group"
                                                                                                     className="elementor-container elementor-column-gap-default">
                                                                                                     <div className="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-1c4b26e3"
                                                                                                         data-id="1c4b26e3"
@@ -2135,13 +2140,9 @@
                                                                                                                     className="elementor-widget-container">
                                                                                                                     <div className="mf-btn-wraper "
                                                                                                                         data-mf-form-conditional-logic-requirement="">
-                                                                                                                        <button
-                                                                                                                            type="submit"
-                                                                                                                            className="metform-btn metform-submit-btn "
-                                                                                                                            id="">
-                                                                                                                            <span>Send
-                                                                                                                                message
-                                                                                                                            </span>
+                                                                                                                        <button onclick="saveData();"
+                                                                                                                            type="submit">
+                                                                                                                            Send message
                                                                                                                         </button>
                                                                                                                     </div>
                                                                                                                 </div>
