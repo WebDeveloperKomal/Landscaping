@@ -1,5 +1,69 @@
 // ----------------------------save the data------------------------------------
 
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('contactForm').addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        validateAndSave();
+    });
+});
+
+function validateAndSave() {
+    var name = document.getElementById('name').value;
+    var phone = document.getElementById('phone').value;
+    var email = document.getElementById('email').value;
+    var services = document.getElementById('services').value;
+    var message = document.getElementById('message').value;
+
+    if (name.trim() === '' || phone.trim() === '' || email.trim() === '' || services.trim() === '' || message.trim() === '') {
+        // Display error message if any field is empty
+        Swal.fire({
+            title: 'Error!',
+            text: 'Please fill in all fields.',
+            icon: 'error',
+            confirmButtonText: 'OK'
+        });
+        return;
+    }
+
+    if (!validateEmail(email)) {
+        // Display error message if email is invalid
+        Swal.fire({
+            title: 'Error!',
+            text: 'Please enter a valid email address.',
+            icon: 'error',
+            confirmButtonText: 'OK'
+        });
+        return;
+    }
+
+    if (!validatePhone(phone)) {
+        // Display error message if phone number is invalid
+        Swal.fire({
+            title: 'Error!',
+            text: 'Please enter a valid phone number.',
+            icon: 'error',
+            confirmButtonText: 'OK'
+        });
+        return;
+    }
+
+    // If all validations pass, proceed to save data
+    saveData();
+}
+
+function validateEmail(email) {
+    // Email validation regex
+    var re = /\S+@\S+\.\S+/;
+    return re.test(email);
+}
+
+function validatePhone(phone) {
+    // Phone number validation regex
+    var re = /^\d{10}$/;
+    return re.test(phone);
+}
+
 function saveData() {
     var saveData = {
         name: document.getElementById('name').value,
@@ -9,62 +73,83 @@ function saveData() {
         message: document.getElementById('message').value
     };
 
+    let headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+    headers.append('Accept', 'application/json');
 
-    // var jwtToken = localStorage.getItem('jwtToken');
-
-    // console.log('Request Data:', JSON.stringify(saveData));
-
-    if (!saveData.name || !saveData.phone || !saveData.email) {
-        alert('Please fill in all required fields.');
-        return;
-    }
-
-    // if (!jwtToken) {
-    //     alert('JWT token is missing. Please log in again.');
-    //     return;
-    // }
-
-    fetch('http://localhost:2222/auth/contact-us', {
+    fetch("http://localhost:2222/auth/contact-us", {
         method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-            // 'Authorization': 'Bearer ' + jwtToken,
-        },
-        body: JSON.stringify(saveData)
+        body: JSON.stringify(saveData),
+        headers: headers,
     })
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json();
-        })
-        .then(data => {
-            console.log('Server response:', data);
-
-            Swal.fire({
-                icon: 'success',
-                title: 'Saved!',
-                text: 'Data has been saved successfully.',
-            }).then((result) => {
-                document.getElementById('name').value = '';
-                document.getElementById('phone').value = '';
-                document.getElementById('email').value = '';
-                document.getElementById('services').value = '';
-                document.getElementById('message').value = '';
-                window.location.href = 'ContactUs.html';
-
-            });
-        })
-        .catch(error => {
-            console.error('Error:', error);
-
-            Swal.fire({
-                icon: 'error',
-                title: 'Error!',
-                text: 'Failed to save data. Please try again.',
-            });
+    .then(response => response.json())
+    .then(json => {
+        // Display success message using Swal.fire
+        Swal.fire({
+            title: 'Success!',
+            text: 'Your message has been sent successfully.',
+            icon: 'success',
+            confirmButtonText: 'OK'
         });
+        console.log(json);
+        // Reset form after successful submission
+        document.getElementById("contactForm").reset();
+    })
+    .catch(error => {
+        // Display error message using Swal.fire
+        Swal.fire({
+            title: 'Error!',
+            text: 'An error occurred while sending your message.',
+            icon: 'error',
+            confirmButtonText: 'OK'
+        });
+        console.error('Error:', error);
+    });
 }
+
+
+
+//     fetch('http://localhost:2222/auth/contact-us', {
+//         method: 'POST',
+//         headers: {
+//             'Content-Type': 'application/json'
+//             // 'Authorization': 'Bearer ' + jwtToken,
+//         },
+//         body: JSON.stringify(saveData)
+//     })
+//         .then(response => {
+//             if (!response.ok) {
+//                 throw new Error('Network response was not ok');
+//             }
+//             return response.json();
+//         })
+//         .then(data => {
+//             console.log('Server response:', data);
+
+//             Swal.fire({
+//                 icon: 'success',
+//                 title: 'Saved!',
+//                 text: 'Data has been saved successfully.',
+//             }).then((result) => {
+//                 document.getElementById('name').value = '';
+//                 document.getElementById('phone').value = '';
+//                 document.getElementById('email').value = '';
+//                 document.getElementById('services').value = '';
+//                 document.getElementById('message').value = '';
+//                 window.location.href = 'ContactUs.html';
+
+//             });
+//         })
+//         .catch(error => {
+//             console.error('Error:', error);
+
+//             Swal.fire({
+//                 icon: 'error',
+//                 title: 'Error!',
+//                 text: 'Failed to save data. Please try again.',
+//             });
+//         });
+// }
 
 
 // ------------------------------get all the data--------------------------------------
